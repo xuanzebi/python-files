@@ -7,8 +7,7 @@ session = requests.session()
 
 
 def get_cookie():
-    driver.get(
-        'http://202.119.206.62/jwglxt/cjcx/cjcx_cxDgXscj.html?doType=query&gnmkdm=N305005&queryModel.showCount=200')
+    driver.get('http://202.119.206.62/jwglxt/cjcx/cjcx_cxDgXscj.html?doType=query&gnmkdm=N305005&queryModel.showCount=200')
     driver.find_element_by_id('yhm').send_keys('08133xxx')
     driver.find_element_by_id('mm').send_keys('xxxxxxxx')
     driver.find_element_by_id('dl').click()
