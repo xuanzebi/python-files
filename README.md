@@ -4,3 +4,5 @@
 ### dl_nlp_py
 - AC自动机
 - Highway网络
+- Focal_loss(tf,pytorch)
+
